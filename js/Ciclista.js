@@ -1,5 +1,5 @@
 import Persona from './Persona.js'
-class Ciclista extends Persona {
+export default class Ciclista extends Persona {
     constructor() {
         super()
         this.nombre = ""
@@ -13,7 +13,7 @@ class Ciclista extends Persona {
     }
 
     correr() {
-        console.log("Estoy corriendo como ciclista!!!!")
+        console.log("¡Estoy corriendo como ciclista!")
     }
 
     registrarTiempo(carrera, tiempo) {
@@ -32,4 +32,4 @@ class Ciclista extends Persona {
     }
 }
 
-export default Ciclista
+//export default Ciclista
